@@ -1,1 +1,1 @@
-export * from "./on-join-session-schema";
+export * from "./on-client-message-schema";
