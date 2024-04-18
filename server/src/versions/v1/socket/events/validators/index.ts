@@ -1,1 +1,1 @@
-export * as onJoinSessionValidator from "./on-join-session-validator";
+export * as onClientMessageValidator from "./on-client-message-validator";

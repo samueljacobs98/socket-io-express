@@ -5,7 +5,7 @@ const logger = Logger.new("on-message");
 
 export const name = "message";
 
-export const handler = (socket: Socket, data: unknown) => {
+export const handler = (socket: Socket, data: string) => {
   logger.log("socket.on.message", `received data: ${data}`);
 
   socket.emit(

@@ -17,7 +17,7 @@ function App() {
     <>
       <div className="flex flex-col justify-center items-center gap-4 p-8">
         <p className="bg-slate-300 px-4 py-2 rounded w-full text-center">
-          State: {"" + isConnected}
+          {`State: ${isConnected}`}
         </p>
         <button onClick={emitMessage}>Emit event</button>
       </div>

@@ -5,6 +5,6 @@ const logger = Logger.new("on-disconnect");
 
 export const name = "disconnect";
 
-export const handler = (_: Socket, data: unknown) => {
+export const handler = (_: Socket, data: string) => {
   logger.log("socket.on.disconnect", `a user disconnected due to ${data}`);
 };
